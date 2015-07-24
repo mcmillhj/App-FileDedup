@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/mcmillhj/%{dist}.svg?branch=master)](https://travis-ci.org/mcmillhj/%{dist})
-[![Coverage Status](https://coveralls.io/repos/mcmillhj/%{dist}/badge.png?branch=master)](https://coveralls.io/r/mcmillhj/%{dist}?branch=master)
+[![Build Status](https://travis-ci.org/mcmillhj/App-FileDedup.svg?branch=master)](https://travis-ci.org/mcmillhj/App-FileDedup)
+[![Coverage Status](https://coveralls.io/repos/mcmillhj/App-FileDedup/badge.png?branch=master)](https://coveralls.io/r/mcmillhj/App-FileDedup?branch=master)
 [![Kwalitee status](http://cpants.cpanauthors.org/dist/App-FileDedup.png)](http://cpants.charsbar.org/dist/overview/App-FileDedup)
 
 # NAME
