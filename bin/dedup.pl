@@ -1,0 +1,46 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings; 
+
+use App::FileDedup;
+App::FileDedup->new_with_options->run;
+
+1;
+
+__END__
+
+=pod 
+
+=head1 NAME
+
+dedup.pl
+
+=head1 DESCRIPTION 
+
+CLI to L<File::Dedup> that can find and eliminate duplicates files across directories
+
+=head1 USAGE
+
+ dedup <directory> [options]
+
+=head1 OPTIONS
+
+ -n 
+ --dont-ask flag to indicate whether files should be deleted interactively or programmatically
+
+ -f (flat)
+ --non-recursvive flag to indiciate whether a recursive or top-level search should be performed
+
+ -g 
+ --group flag to indicate that duplicates should be grouped into new subfolders
+
+=head1 SYNOPSIS
+
+ dedup $HOME -nfg 
+
+ is the same as:
+
+ dedup $HOME --dont-ask --non-recursive --group 
+
+=cut
