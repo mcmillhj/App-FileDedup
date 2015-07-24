@@ -1,5 +1,5 @@
 package App::FileDedup;
-
+# ABSTRACT: Command wrapper around L<FileDedup> using MooseX::App::Simple
 use strict;
 use warnings;
 
