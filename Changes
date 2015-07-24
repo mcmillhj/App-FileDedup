@@ -1,4 +1,4 @@
 Revision history for App-FileDedup
 
 {{$NEXT}}
-    -
+    - small wrapper around L<File::Dedup> built using MooseX::App::Simple
